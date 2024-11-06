@@ -11,7 +11,10 @@
                 <div class="p-6 text-gray-900">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <div class="ml-auto d-flex">
-                            <a href="#" class="btn btn-primary mr-2">Tambah Program Studi</a>
+                            <a href="#" role="button" class="btn btn-primary mr-2 d-flex align-items-center gap-1">
+                                <i class="bi bi-plus"></i>
+                                Tambah Program Studi
+                            </a>
                             <form action="" method="GET" class="d-flex">
                                 <input type="text" name="search" class="form-control" placeholder="Pencarian">
                                 <button class="btn btn-primary ml-2" type="submit">
@@ -33,9 +36,15 @@
                             <tr>
                                 <td></td>
                                 <td></td>
-                                <td>
-                                    <a href="#"class="btn btn-secondary">Edit</a>
-                                    <a href="#"class="btn btn-danger">Hapus</a>
+                                <td class="d-flex gap-2">
+                                    <a href="#" class="btn btn-info d-flex gap-1 font-bold align-items-center">
+                                        <i class="bi bi-pencil-square"></i>
+                                        <span>Edit</span>
+                                    </a>
+                                    <a href="#" class="btn btn-danger d-flex gap-1 font-bold align-items-center">
+                                        <i class="bi bi-trash"></i>
+                                        <span>Hapus</span>
+                                    </a>
                                 </td>
                             </tr>
                         </tbody>
